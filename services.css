@@ -1,0 +1,117 @@
+ body {padding: 0px; margin: 0px; display:flex; flex-direction:column; min-height:100%; }
+ html {height:100%;}
+*{box-sizing:border-box; text-decoration:none; }
+.container{padding:0px;max-width:1467px; margin:0 auto; }	
+
+.servicescover{position:relative;background: linear-gradient(90deg, rgba(200,200,200,1) 0%, rgba(241,234,234,1) 100%);width: auto; height:680; background-size:cover;}
+.servicescover img{width:auto;height:400;top:120;position:absolute; right:50;}
+.servicescover ul{line-height:60px;padding:150px 0px 0px 50px; font-size:50px;}
+.servicescover ul li{list-style:none;}
+.servicescover ul li:first-child{padding-bottom:50px;font-weight:bold; font-size:80px;}
+.loremain a{text-decoration:none;}
+.lorem{color:white;background-color:black;border:1px solid black; padding:10px; font-size:30px; font-weight:bold;}
+#weew1{background-color:black;}
+#weew2{background-color:orange;}
+.loremain{margin:30px 0px 0px 50px;}
+.loader{position:fixed;z-index:999999;background:white; width:100%; height:100%;}
+.loader img{height:100px; width:100px;position:absolute; top: calc(50vh - 75px); left:calc(50vw - 75px);}
+#dropdown a{padding:10px;}
+#nav a:hover{color:black;}
+#nav{font-size:20px; font-family: 'Arvo', serif;}
+#nav a{text-decoration:none; color:gray;margin-right:30px; }
+.featuredbody1{height:0px;  width:100%;}
+.body1{min-height:100%;justify-content:space-around;display:flex; flex-wrap:wrap; flex-direction:row;}
+.box:hover{box-shadow: 4px 4px 14px 0px rgba(110,94,110,1); color:black; }
+
+.box{ margin:20px 30px 50px 30px;height:270px; width:300px;  text-align:center; color:black; }
+.insidebox{font-size:20px; margin-top:20px;}
+.pic{height:200px; width:100%; background-repeat:no-repeat;background-size:cover;}
+.boiling{background:url(pictures/services/boiler.png);}
+.cooling{background:url(pictures/services/cooling.png);}
+.potable{background:url(pictures/services/potable.png);}
+.waste{background:url(pictures/services/wastewater.png);}
+.solid{background:url(pictures/services/solid.png);}
+.ripening{background:url(pictures/services/banana.png);}
+.washing{background:url(pictures/services/wash.png);}
+.water{background:url(pictures/services/watercycle.png);}
+.poultry{background:url(pictures/services/poultry.png);}
+.pig{background:url(pictures/services/pig.png);}
+.chicken{background:url(pictures/services/chicken.png);}
+.fish{background:url(pictures/services/fish.png);}
+.coconut{background:url(pictures/services/coconut.png);}
+.expellers{background:url(pictures/services/expellers.png);}
+.screwpress{background:url(pictures/services/noimage.png);}
+.calcium{background:url(pictures/services/calcium.png);}
+.citrein{background:url(pictures/services/citrein.png);}
+.ethylene{background:url(pictures/services/ethylene.png);}
+.peradesin{background:url(pictures/services/peradesin.png);}
+.chlorine{background:url(pictures/services/chlorine.png);}
+.scalefree{background:url(pictures/services/scalefree.png);}
+.surfapel{background:url(pictures/services/surfapel.png);}
+.profleet1{background:url(pictures/services/profleet1.png);}
+.profleet2{background:url(pictures/services/profleet2.png);}
+.bighorn{background:url(pictures/services/bighorn.png);}
+.sterilox5a{background:url(pictures/services/noimage.png);}
+.sterilox5{background:url(pictures/services/noimage.png);}
+.sureclear{background:url(pictures/services/noimage.png);}
+.sureclear1{background:url(pictures/services/noimage.png);}
+.sureclear2{background:url(pictures/services/noimage.png);}
+.scalefree2068{background:url(pictures/services/noimage.png);}
+.memcare{background:url(pictures/services/noimage.png);}
+.rustfree{background:url(pictures/services/noimage.png);}
+.scalefree3000{background:url(pictures/services/noimage.png);}
+.sterilox10{background:url(pictures/services/noimage.png);}
+.bioshield{background:url(pictures/services/noimage.png);}
+.stabilox5a{background:url(pictures/services/noimage.png);}
+.primefresh{background:url(pictures/services/noimage.png);}
+.dichlox{background:url(pictures/services/noimage.png);}
+
+.tales 					{max-height:500;width:100%;height:auto; background-size:cover; background-attachment:fixed;}
+
+#caption1				{left:20;top:0;height:270px;text-align: left;padding:20px;border-radius: 10px;width: 600px;}
+#caption1 h5			{font-size: 45px;font-weight: bold;color:black;}
+#caption1 p				{font-size: 23px;color:black;text-align: justify;line-height: 33px;}
+
+  
+#caption2				{left:20;top:20;height:270px;background-color: rgba(5,5,205,0.5);text-align: left;padding:20px;border-radius: 10px;width: 530px;}
+#caption2 h5			{font-size: 40px;font-weight: bold;color:black;}
+#caption2 p				{font-size: 16px;color:black;text-align: justify;line-height: 35px;}
+#caption2 #learnmore2 a	{border-radius:5px;text-decoration:none;color: white; font-size:20PX; background-color: #ff6633;padding: 8px 10px 10px 10px;}
+
+#caption3				{left:20;top:20;height:270px;background-color: rgba(5,5,205,0.5);text-align: left;padding:20px;border-radius: 10px;width: 530px;}
+#caption3 h5			{font-size: 40px;font-weight: bold;color:black;}
+#caption3 p				{font-size: 16px;color:black;text-align: justify;line-height: 25px;}
+#caption3 #learnmore3	{background-color: #ff6633;width: 150;padding:8px 19px 10px 19px;text-align: center;border-radius: 5px;float:right;}
+#caption3 #learnmore3 a	{text-decoration:none;color: white;}
+.carousel-inner .carousel-item {transition: transform 1s ease, -webkit-transform 1s ease;}
+
+
+
+
+/*COVER PHOTO*/
+@media screen and (max-width:1352px){.servicescover{height:450; }.servicescover img{height:300; top:90;}.servicescover ul{line-height:40px;padding:120px 0px 0px 50px; font-size:30px;}.servicescover ul li:first-child{padding-bottom:20px;font-size:50px;}.lorem{font-size:20px;}}
+@media screen and (max-width:990px){.servicescover{height:300; }.servicescover img{height:200; top:50;}.servicescover ul{line-height:30px;padding:70px 0px 0px 50px; font-size:20px;}.servicescover ul li:first-child{padding-bottom:20px;font-size:30px;}.lorem{font-size:15px;}}
+@media screen and (max-width:765px){.servicescover{height:500;  text-align:center; }.servicescover img{margin-top:30;position:static;height:250;}.servicescover ul{line-height:30px;padding:40px 0px 0px 0px; font-size:20px;}.servicescover ul li:first-child{padding:0px;font-size:30px;}.lorem:first-child{margin-left:-50;}}
+
+
+
+@media screen and (max-width:1079px){.box{ margin:20px 10px 50px 10px;}}
+@media screen and (max-width:639px){
+	.box{ margin:20px 10px 50px 10px; height:235px; width:250px;  }
+	.insidebox{font-size:18px; margin-top:10px;}
+	.pic{height:190px; width:100%; background-repeat:no-repeat;background-size:cover;}
+	}
+
+
+@media screen and (max-width:539px){
+		.box{ margin:20px 3px 50px 3px;height:220px; width:180px;  text-align:center; color:black; }
+	.insidebox{font-size:17px; margin-top:5px; }
+	.pic{height:150px; }
+}
+
+
+@media screen and (max-width:441px){.servicescover{height:400;} .servicescover img{height:150; top:50;}.}
+
+
+
+

@@ -1,0 +1,110 @@
+html , body {padding: 0px; margin: 0px;	 min-height:100vh; }
+*{box-sizing:border-box; }
+.container{padding:0px;max-width:1467px; margin:0 auto;}	
+
+
+.videocontainer{margin-top:-100;height: 800px;width: 100%;position: relative;}
+.videocontainer video{height: auto;width: auto;position: absolute;min-height: 100%;min-width: 100%; z-index:-1;}
+.videocontainer #image1{display:none;}
+.videoinfo ul{margin-right:45px;font-family: 'Amaranth', sans-serif; text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; }
+.videoinfo ul li{list-style:none;}
+.videoinfo{text-align:center; color:white;}
+.videoinfo .title1{position: relative; font-size: 80px;margin:100px 0px 0px 0px;font-weight:bold;}
+.videoinfo .title2{position: relative; font-size: 80px; font-weight:bold;  }
+.videoinfo .title3{position: relative; font-size: 40px;margin:100px 0px 80px 0px;}
+.videoinfo .title4,.title5,.title6{position: relative; font-size:20px;margin-top:20px;}
+
+.titobackground{height:500px;width: 100%;background-image:url("pictures/ceo.jpg");background-size:cover;
+				background-repeat: no-repeat;}
+.titomain{height:500px;width: 100%;position:relative;}
+.titoleft{padding-top:65px;text-align:center;position:absolute;height:500px;width: 35%; left:0;}
+.titoleft img{height: 300px;width: 300px;}
+.titoright{margin-right:50px; margin-top:40px;position:absolute; right:0; height:500px;width: 65%;text-align:justify;}
+.titospeech{line-height: 50px;font-size: 25px;}
+.titoright ul li{list-style:none;}
+.section{opacity:0;}
+
+.story{height:300px;width: 100%;text-align: justify;}
+.story ul li{list-style: none;}
+.story ul{margin:0;}
+
+
+.story{background-color: #46dad7;text-align:center; height:500px;width: 100%;}
+.story img { height:200px;text-align:center;}
+.story p{text-align:justify;padding: 0 100px; font-size:30px;font-family: 'Akaya Telivigala', cursive;}
+.misvis{position:relative;height:500px;width:100%; background-color:brown;}
+.mission{position:absolute;height: 500px; width:300px; background-color:blue;}
+.vision{position:absolute;height: 500px; width:300px; background-color:blue;}
+
+.loader{position:fixed;z-index:999999;background:white; width:100%; height:100%;}
+.loader img{height:100px; width:100px;position:absolute; top: calc(50vh - 75px); left:calc(50vw - 75px);}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:915px){
+.titoleft img{height: 250px;width: 250px;}
+.titospeech{margin-left:50px;line-height: 40px;font-size:23px;}
+.titoright{margin:40px 70px 0px 0px; position:absolute; right:0; height:500px;width: 65%;text-align:justify;}
+}
+
+
+
+
+@media screen and (max-width:991px){.navbar-nav	li{padding:10px;}}
+@media screen and (max-width:769px){
+.videocontainer{height: 830px;width: 100%;position: relative;overflow:hidden;}
+.videocontainer video{display:none;}
+.videocontainer #image1{display:block; width:100%; height:100%; position:absolute;}
+.videoinfo ul li{list-style:none;}
+.videoinfo{text-align:center; color:white;}
+.videoinfo .title1{position: relative; font-size: 53px;margin:62px 0px 0px 0px;font-weight:bold; PADDING-TOP:80PX; line-height:40px;}
+.videoinfo .title2{position: relative; font-size: 53px; font-weight:bold;  }
+.videoinfo .title3{position: relative; font-size: 40px;margin:100px 0px 80px 0px;}
+.videoinfo .title4,.title5,.title6{position: relative; font-size:19px;margin-top:20px;}
+.titomain{height:600px;width: 100%;position: relative;	align-items:center;text-align: center;}
+.titoleft img{height: 300px;width: 300px;margin:-30px 0px 0px 0px;}
+.titospeech{line-height: 35px;font-size:20px;margin:0px 0px 0px 0px; padding:0;}
+.titoleft{width: 100%;}
+.titoleft p{margin:0;}
+.titoright{position:absolute;height:220;width: 100%;text-align:justify;bottom:0;margin:0px 20px 0px 0px;}
+.titobackground{height:600px;}
+.story{height:400px;width: 100%;text-align: justify;}
+.story ul li{list-style: none;margin-top:20px;}
+.story ul{margin:0;margin:0px 25px 0px -19px;}}
+
+
+@media screen and (max-width:640px){
+	.titobackground{height:780px;}
+	
+	
+@media screen and (max-width:376px){
+.videocontainer{height: 678px;width: 100%;position: relative;overflow:hidden;}
+.videocontainer video{display:none;}
+.videocontainer #image1{display:block; width:100%; height:100%; position:absolute;}
+.videoinfo{text-align:center;}
+.videoinfo .title1{position: relative; font-size: 28px;margin:62px 0px 0px 0px;font-weight:bold; PADDING:50PX 0px 0px 0px; line-height:40px;}
+.videoinfo .title2{position: relative; font-size: 28px; font-weight:bold;  }
+.videoinfo .title3{position: relative; font-size: 25px;margin:25px 0px 50px 0px;}
+.videoinfo .title4,.title5,.title6{position: relative; font-size:13px;margin:20px; padding:0;}
+.titomain{height:760px;width: 100%;position: relative;	align-items:center;text-align: center;}
+.titoleft img{height: 300px;width: 300px;margin:40px 0px 0px 0px;}
+.titospeech{line-height: 30px;font-size: 15px;margin:80px 0px 0px 0px;}
+.titoleft{position:absolute;height:3800px;width: 100%;max-height:100%;top:0;margin:0;}
+.titoleft p{margin:0;}
+.titoright{position:absolute;height:380px;width: 100%;text-align:justify;bottom:0;margin:0px 20px 0px 0px;}
+
+
+
